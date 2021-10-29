@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(){
+	int n, i, j, a, b;
+	
+	printf("Digite un nuemor  ");
+	scanf("%d", &n);
+	printf("\n");
+  
+  for(i=n; i>=1; i--){
+		for(j=1; j<i; j++){
+			printf("%d\t", j);
+		}
+		printf("\n");
+	}
+  
+  	return 0;
+}
